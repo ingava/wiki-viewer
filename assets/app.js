@@ -3,7 +3,6 @@ window.onload = function(){
     // search on ENTER
     $("#query").keypress(function (e) {
         if (e.which == 13) {
-            var query = $("#query").val();
             $("#query").val("");
             $("#resultList").text("");
 

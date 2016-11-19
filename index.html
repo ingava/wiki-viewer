@@ -1,5 +1,25 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wiki Viewer</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/app.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="assets/app.js" defer="defer"></script>
+</head>
 <body>
-<h1>Wiki Viewer</h1>
+<div class="contentWrapper">
+    <h2 id="titleHeader">Search Wiki</h2>
+    <input id="query" type="text" placeholder="Enter your query">
+    <h3>Or improvise</h3>
+    <a id="randomArticle" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random</a>
+    <div id="resultList"></div>
+</div>
 </body>
 </html>

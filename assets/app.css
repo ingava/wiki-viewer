@@ -1,8 +1,8 @@
 body {
     font-family: 'Catamaran', sans-serif;
 }
+
 input {
-    appearance: none;
     line-height: 2em;
     font-size: 2em;
     width: 10em;
@@ -10,20 +10,24 @@ input {
     border-color: black;
     padding-left: 1em;
 }
+
 input:focus {
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
     outline: none;
 }
+
 h3 {
     font-size: 2em;
 }
+
 .contentWrapper {
     width: 50%;
     margin: 0 auto;
     text-align: center;
 }
+
 .resultTitle {
     background-color: white;
     position: relative;
@@ -34,6 +38,7 @@ h3 {
     color: blue;
     padding: 0 15px;
 }
+
 .resultItem {
     border: 1px solid black;
     border-radius: 10px;
@@ -42,13 +47,16 @@ h3 {
 .resultItem p {
     padding: 0 1em;
 }
+
 #titleHeader {
     font-weight: 700;
     font-size: 3em;
 }
+
 #resultList {
     text-align: left
 }
+
 #randomArticle {
     font-size: 1.7em;
     border: 1px solid black;
@@ -57,13 +65,15 @@ h3 {
     border-radius: 15px;
     color: black;
 }
+
 #randomArticle:hover {
     border-color: blue;
     color: blue;
-    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.75);
 }
+
 #resultList {
     margin-top: 3em;
 }

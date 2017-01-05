@@ -78,3 +78,18 @@ h3 {
 #resultList {
     margin-top: 3em;
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .contentWrapper {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contentWrapper {
+        width: 100%;
+    }
+    #query {
+        width: 90%;
+    }
+}
